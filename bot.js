@@ -7,11 +7,11 @@ let init = 0;
 
 const botSay = (data) => {
   return [
-    "Perkenalkan nama saya dhanzbot. siapa nama kamu?",
+    "Perkenalkan nama saya Dhandy. nama kamu siapa?",
     `Halo ${data?.nama}, Berapa usia kamu?`,
-    `Ohhh ${data?.usia}, Hobi kamu apa ya?`,
-    `wow! sama dong aku juga hobi ${data?.hobi}, btw punya pacar gak?`,
-    `ohhh ${data?.pacar}, ya udah kalau gitu. udahan yah?`,
+    `ohhh ${data?.usia}, Hobi kamu apa ya?`,
+    `wow! hobi nya ${data?.hobi} keren juga, btw punya pacar gak?`,
+    `ohh ${data?.pacar}, yauda kalo gitu yaa`,
   ];
 };
 
